@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+
+#image {
+  max-width: 100%;
+  min-width: 373px;
+  max-height: 671px;
+}
+
+#tribute-info {
+  padding-top: 62px;
+}
+
+#block {
+  position: relative;
+  left: -130px;
+  max-width: 45rem;
+  min-width: 524px;
+  max-height: 43rem;
+  min-height: 150px;
+  background-color: #ededed;
+  z-index: -1;
+}
+
+#title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 8vw;
+  color: #1f1f1f;
+  padding-top: 49px;
+  padding-left: 250px;
+  padding-right: 94px;
+}
+
+#title::before {
+  content: '';
+  position: absolute;
+  height: 23px;
+  width: 20vw;
+  background-color: #bfbfbf;
+  top: 150px;
+  transform: rotate(3.16deg);
+  z-index: -1;
+}
+
+#tribute-info h4 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  padding-top: 5px;
+  padding-left: 95px;
+  padding-bottom: 32px;
+}
+
+#tribute-info p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #474747;
+  line-height: 2.5rem;
+  padding-left: 172px;
+  padding-right: 19px;
+  padding-bottom: 100px;
+}
+
+/* PAGE 2 */
+
+.container-page2 {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-right: 100px;
+}
+
+#image {
+  max-width: 100%;
+  min-width: 373px;
+  max-height: 671px;
+}
+
+#tribute-info-page2 {
+  padding-top: 62px;
+}
+
+#block-page2 {
+  position: relative;
+  left: 130px;
+  max-width: 45rem;
+  min-width: 524px;
+  max-height: 47rem;
+  min-height: 150px;
+  background-color: #1f1f1f;
+  z-index: -1;
+}
+
+#title-page2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 6vw;
+  color: #666666;
+  padding-top: 49px;
+  padding-right: 250px;
+  padding-left: 94px;
+}
+
+#tribute-info-page2 h4 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #bfbfbf;
+  padding-top: 5px;
+  padding-right: 95px;
+  padding-bottom: 32px;
+}
+
+#tribute-info-page2 p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ededed;
+  line-height: 2rem;
+  padding-right: 160px;
+  padding-left: 40px;
+  padding-bottom: 64px;
+}
+
+figcaption {
+  font-size: 12px;
+}
+
+#img2-caption {
+  text-align: right;
+}
+
+/*button*/
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 40px;
+  font-family: 'Roboto', 'sans serif';
+  color: #1f1f1f;
+  padding: 25px 50px;
+  border: 2px solid;
+}
+
+a:hover {
+  box-shadow: 15px 15px 0px #474747;
+  transition: all 0.2s ease-out;
+}
