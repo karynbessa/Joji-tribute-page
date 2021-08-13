@@ -17,6 +17,7 @@
 }
 
 #image {
+  display: block;
   max-width: 100%;
   min-width: 373px;
   max-height: 671px;
